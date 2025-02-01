@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    background: url('https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    height:100%;
+    max-height:400px;
+}
+
+.login-form {
+    text-align: center;
+    color: #fff;
+}
+
+.avatar {
+    margin-bottom: 15px;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+
+input {
+    margin: 10px 0px 15px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 1px;;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e5533f;
+}
+
+.forgot-password {
+    margin-top: 3%;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.forgot-password:hover {
+    color: #ff6347;
+}
